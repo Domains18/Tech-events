@@ -6,11 +6,10 @@ const Navbar = () => {
             <div className="nav-wrapper">
                 <a href="#" className="brand-logo">Logo</a>
                 <div className="items">
-                    <Link to="/">About US</Link>
-                    <Link to="/">Upcoming Events</Link>
-                    <Link to="/">Past Events</Link>
-                    <Link to="/">Search</Link>
-                    <Link to="/">Login</Link>
+                    <Link to="/about">About US</Link>
+                    <Link to="/contact">Upcoming Events</Link>
+                    <Link to="/search">Search</Link>
+                    {/* <Link to="/">Login</Link> */}
                 </div>
             </div>
         </nav>
