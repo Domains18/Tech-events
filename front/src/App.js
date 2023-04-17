@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Components/Nav/Navbar';
 import Hero from './Views/Hero/Hero';
-import FindEvents from './FindEvents';
+import FindEvents from './Views/FindEvents/FindEvents';
 const App = () => {
   return (
     <>
