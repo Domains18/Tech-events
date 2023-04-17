@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <nav>
             <div className="nav-wrapper">
-                <a href="#" className="brand-logo">Logo</a>
+                <Link to="/" className="brand-logo">Logo</Link>
                 <div className="items">
-                    <Link to="/about">About US</Link>
-                    <Link to="/contact">Upcoming Events</Link>
-                    <Link to="/search">Search</Link>
-                    {/* <Link to="/">Login</Link> */}
+                    <Link className='Link' to="/about">About US</Link>
+                    <Link className='Link' to="/contact">Upcoming Events</Link>
+                    <Link className='Link' to="/search">Search</Link>
+                    <Link className="Link" to="/">Login</Link>
                 </div>
             </div>
         </nav>
