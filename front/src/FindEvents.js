@@ -2,7 +2,7 @@ import React from 'react'
 
 const FindEvents = () => {
   return (
-    <div>FindEvents</div>
+    <div className='findevents'>FindEvents</div>
   )
 }
 
